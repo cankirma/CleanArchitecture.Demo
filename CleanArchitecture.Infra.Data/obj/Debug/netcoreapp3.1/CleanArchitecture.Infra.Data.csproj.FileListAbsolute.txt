@@ -1,0 +1,15 @@
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.deps.json
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.runtimeconfig.json
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.runtimeconfig.dev.json
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\bin\Debug\netcoreapp3.1\CleanArch.Domain.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\bin\Debug\netcoreapp3.1\CleanArch.Domain.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.csprojAssemblyReference.cache
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.AssemblyInfo.cs
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.csproj.CopyComplete
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.genruntimeconfig.cache
