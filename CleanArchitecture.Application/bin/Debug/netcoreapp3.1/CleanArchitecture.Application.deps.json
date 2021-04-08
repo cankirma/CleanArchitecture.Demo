@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CleanArchitecture.Application/1.0.0": {
+        "dependencies": {
+          "CleanArch.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchitecture.Application.dll": {}
+        }
+      },
+      "CleanArch.Domain/1.0.0": {
+        "runtime": {
+          "CleanArch.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanArchitecture.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArch.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
