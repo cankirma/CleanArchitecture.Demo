@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yh20khA5d4blnibb2p3HFhwy4uJ95Toi8s9WSixylg/vNggAMz0i0ubKG6Li61xVkngmezz78uPA1pYipxHUqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Infrastructure.Bus\\CleanArchitecture.Infrastructure.Bus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\can_k\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
