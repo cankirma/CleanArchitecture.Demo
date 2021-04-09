@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Infrastructure.Bus\\CleanArchitecture.Infrastructure.Bus.csproj": {}
+    "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Domain.Core\\CleanArchitecture.Domain.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Infrastructure.Bus\\CleanArchitecture.Infrastructure.Bus.csproj": {
+    "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Domain.Core\\CleanArchitecture.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Infrastructure.Bus\\CleanArchitecture.Infrastructure.Bus.csproj",
-        "projectName": "CleanArchitecture.Infrastructure.Bus",
-        "projectPath": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Infrastructure.Bus\\CleanArchitecture.Infrastructure.Bus.csproj",
+        "projectUniqueName": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Domain.Core\\CleanArchitecture.Domain.Core.csproj",
+        "projectName": "CleanArchitecture.Domain.Core",
+        "projectPath": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Domain.Core\\CleanArchitecture.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\can_k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Infrastructure.Bus\\obj\\",
+        "outputPath": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -48,7 +48,7 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
