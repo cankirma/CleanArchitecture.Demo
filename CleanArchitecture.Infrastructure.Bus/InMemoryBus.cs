@@ -1,5 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
+using CleanArchitecture.Domain.Core.Bus;
+using CleanArchitecture.Domain.Core.Commands;
 using MediatR;
 
 namespace CleanArchitecture.Infrastructure.Bus

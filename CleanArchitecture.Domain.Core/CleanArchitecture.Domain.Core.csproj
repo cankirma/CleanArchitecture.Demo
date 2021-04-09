@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Bus\" />
-    <Folder Include="Commands\" />
     <Folder Include="Events\" />
   </ItemGroup>
 
