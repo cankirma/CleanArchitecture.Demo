@@ -94,3 +94,8 @@ C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netco
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.dll
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.pdb
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\CleanArch.Domain.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\CleanArchitecture.Application.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.IoC.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.IoC.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\CleanArchitecture.Application.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Course\Index.cshtml.g.cs

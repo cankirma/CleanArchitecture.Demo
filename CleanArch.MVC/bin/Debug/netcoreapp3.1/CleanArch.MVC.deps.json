@@ -32,6 +32,7 @@
       "CleanArch.MVC/1.0.0": {
         "dependencies": {
           "CleanArchitecture.Infra.Data": "1.0.0",
+          "CleanArchitecture.Infrastructure.IoC": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.14",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.14",
           "Microsoft.AspNetCore.Identity.UI": "3.1.14",
@@ -1468,6 +1469,17 @@
           "CleanArch.Domain.dll": {}
         }
       },
+      "CleanArchitecture.Application/1.0.0": {
+        "dependencies": {
+          "CleanArch.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchitecture.Application.dll": {}
+        },
+        "compile": {
+          "CleanArchitecture.Application.dll": {}
+        }
+      },
       "CleanArchitecture.Infra.Data/1.0.0": {
         "dependencies": {
           "CleanArch.Domain": "1.0.0",
@@ -1479,6 +1491,19 @@
         },
         "compile": {
           "CleanArchitecture.Infra.Data.dll": {}
+        }
+      },
+      "CleanArchitecture.Infrastructure.IoC/1.0.0": {
+        "dependencies": {
+          "CleanArchitecture.Application": "1.0.0",
+          "CleanArchitecture.Infra.Data": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.14"
+        },
+        "runtime": {
+          "CleanArchitecture.Infrastructure.IoC.dll": {}
+        },
+        "compile": {
+          "CleanArchitecture.Infrastructure.IoC.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3807,7 +3832,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CleanArchitecture.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CleanArchitecture.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitecture.Infrastructure.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

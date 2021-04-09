@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using CleanArch.Domain.Interfaces;
 using CleanArch.Domain.Models;
 using CleanArchitecture.Infra.Data.Comtext;
@@ -16,7 +17,7 @@ namespace CleanArchitecture.Infra.Data.Repository
 
         public IEnumerable<Course> GetCourses()
         {
-            throw new System.NotImplementedException();
+          return  _context.Courses.ToList();
         }
     }
 }
