@@ -10,3 +10,5 @@ C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Application
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Application\obj\Debug\netcoreapp3.1\CleanArchitecture.Application.csproj.CopyComplete
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Application\obj\Debug\netcoreapp3.1\CleanArchitecture.Application.dll
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Application\obj\Debug\netcoreapp3.1\CleanArchitecture.Application.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Application\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Application\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.pdb

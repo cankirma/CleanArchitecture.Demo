@@ -14,3 +14,5 @@ C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastruct
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.IoC\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.IoC.csproj.CopyComplete
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.IoC\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.IoC.dll
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.IoC\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.IoC.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.IoC\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.IoC\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.pdb

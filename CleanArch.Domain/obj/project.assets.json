@@ -1,11 +1,60 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "CleanArchitecture.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MediatR": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Domain.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "CleanArchitecture.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Domain.Core/CleanArchitecture.Domain.Core.csproj",
+      "msbuildProject": "../CleanArchitecture.Domain.Core/CleanArchitecture.Domain.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CleanArchitecture.Domain.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\can_k\\.nuget\\packages\\": {},
@@ -41,7 +90,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Domain.Core\\CleanArchitecture.Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Domain.Core\\CleanArchitecture.Domain.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

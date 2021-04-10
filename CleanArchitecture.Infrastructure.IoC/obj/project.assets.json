@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -1471,6 +1480,9 @@
       "CleanArch.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CleanArchitecture.Domain.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CleanArch.Domain.dll": {}
         },
@@ -1491,6 +1503,19 @@
           "bin/placeholder/CleanArchitecture.Application.dll": {}
         }
       },
+      "CleanArchitecture.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MediatR": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Domain.Core.dll": {}
+        }
+      },
       "CleanArchitecture.Infra.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1505,10 +1530,42 @@
         "runtime": {
           "bin/placeholder/CleanArchitecture.Infra.Data.dll": {}
         }
+      },
+      "CleanArchitecture.Infrastructure.Bus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CleanArchitecture.Domain.Core": "1.0.0",
+          "MediatR": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Infrastructure.Bus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Infrastructure.Bus.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -5692,16 +5749,27 @@
       "path": "../CleanArchitecture.Application/CleanArchitecture.Application.csproj",
       "msbuildProject": "../CleanArchitecture.Application/CleanArchitecture.Application.csproj"
     },
+    "CleanArchitecture.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Domain.Core/CleanArchitecture.Domain.Core.csproj",
+      "msbuildProject": "../CleanArchitecture.Domain.Core/CleanArchitecture.Domain.Core.csproj"
+    },
     "CleanArchitecture.Infra.Data/1.0.0": {
       "type": "project",
       "path": "../CleanArchitecture.Infra.Data/CleanArchitecture.Infra.Data.csproj",
       "msbuildProject": "../CleanArchitecture.Infra.Data/CleanArchitecture.Infra.Data.csproj"
+    },
+    "CleanArchitecture.Infrastructure.Bus/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Infrastructure.Bus/CleanArchitecture.Infrastructure.Bus.csproj",
+      "msbuildProject": "../CleanArchitecture.Infrastructure.Bus/CleanArchitecture.Infrastructure.Bus.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "CleanArchitecture.Application >= 1.0.0",
       "CleanArchitecture.Infra.Data >= 1.0.0",
+      "CleanArchitecture.Infrastructure.Bus >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 3.1.14"
     ]
   },
@@ -5745,6 +5813,9 @@
             },
             "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Infra.Data\\CleanArchitecture.Infra.Data.csproj": {
               "projectPath": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Infra.Data\\CleanArchitecture.Infra.Data.csproj"
+            },
+            "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Infrastructure.Bus\\CleanArchitecture.Infrastructure.Bus.csproj": {
+              "projectPath": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Infrastructure.Bus\\CleanArchitecture.Infrastructure.Bus.csproj"
             }
           }
         }

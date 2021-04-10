@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DzHBUxwQRroGr4iu4jAN4+4SBmWww9lKhocZVY9WtpdHRV2V56fvPswoa7yU9CHskXpLDOkNf+2IqGAXyLuwWw==",
+  "dgSpecHash": "F2pRJdmSJRtbpQb64Dkkd8ZxifC26wgl98JX8H4teS6OKmUK6EnD6rhyCqHgpGpTolRjCO/s6gvBajr274F8Bg==",
   "success": true,
   "projectFilePath": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArchitecture.Infra.Data\\CleanArchitecture.Infra.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\can_k\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\can_k\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\can_k\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\can_k\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

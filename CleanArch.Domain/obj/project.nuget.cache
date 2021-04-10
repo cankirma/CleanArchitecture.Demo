@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nGDx3d/Kxf6uxYpseA3IWG7I/n3RJw3OBV/74m65j2infl5BauI7T2SbqXY/6SSX9e16SbPM4gQmwYNOfN80pA==",
+  "dgSpecHash": "l5jZefXUujdaEgrW8tq2sg9G5M6PXDhhI2TMj4tUJOzvpXPfcmOICZuAiFDUVLqdPfC8EpON2Kb14SMjtDxkpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArch.Domain\\CleanArch.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\can_k\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

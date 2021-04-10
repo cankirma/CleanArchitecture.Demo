@@ -13,3 +13,5 @@ C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.dll
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.pdb
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.Data.genruntimeconfig.cache
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infra.Data\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.pdb

@@ -16,6 +16,14 @@
           "CleanArchitecture.Infrastructure.IoC.dll": {}
         }
       },
+      "MediatR/9.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -1017,6 +1025,9 @@
         }
       },
       "CleanArch.Domain/1.0.0": {
+        "dependencies": {
+          "CleanArchitecture.Domain.Core": "1.0.0"
+        },
         "runtime": {
           "CleanArch.Domain.dll": {}
         }
@@ -1027,6 +1038,14 @@
         },
         "runtime": {
           "CleanArchitecture.Application.dll": {}
+        }
+      },
+      "CleanArchitecture.Domain.Core/1.0.0": {
+        "dependencies": {
+          "MediatR": "9.0.0"
+        },
+        "runtime": {
+          "CleanArchitecture.Domain.Core.dll": {}
         }
       },
       "CleanArchitecture.Infra.Data/1.0.0": {
@@ -1046,6 +1065,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "MediatR/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "path": "mediatr/9.0.0",
+      "hashPath": "mediatr.9.0.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1739,6 +1765,11 @@
       "sha512": ""
     },
     "CleanArchitecture.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitecture.Domain.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

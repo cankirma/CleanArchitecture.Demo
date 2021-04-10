@@ -1,0 +1,12 @@
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.deps.json
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.csprojAssemblyReference.cache
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.AssemblyInfoInputs.cache
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.AssemblyInfo.cs
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.csproj.CoreCompileInputs.cache
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.csproj.CopyComplete
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.Bus\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.pdb
