@@ -7,3 +7,6 @@ C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.Domain\obj\Debug\ne
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.csproj.CoreCompileInputs.cache
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.dll
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.Domain\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.Domain\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.csproj.CopyComplete

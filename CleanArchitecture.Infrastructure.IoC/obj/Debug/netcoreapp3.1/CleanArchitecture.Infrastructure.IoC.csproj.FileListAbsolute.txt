@@ -16,3 +16,5 @@ C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastruct
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.IoC\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.IoC.pdb
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.IoC\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.dll
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.IoC\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.pdb
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.IoC\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.Infrastructure.IoC\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.pdb

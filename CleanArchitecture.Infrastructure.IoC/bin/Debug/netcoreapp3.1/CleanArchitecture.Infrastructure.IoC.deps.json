@@ -10,6 +10,7 @@
         "dependencies": {
           "CleanArchitecture.Application": "1.0.0",
           "CleanArchitecture.Infra.Data": "1.0.0",
+          "CleanArchitecture.Infrastructure.Bus": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "3.1.14"
         },
         "runtime": {
@@ -1057,6 +1058,15 @@
         "runtime": {
           "CleanArchitecture.Infra.Data.dll": {}
         }
+      },
+      "CleanArchitecture.Infrastructure.Bus/1.0.0": {
+        "dependencies": {
+          "CleanArchitecture.Domain.Core": "1.0.0",
+          "MediatR": "9.0.0"
+        },
+        "runtime": {
+          "CleanArchitecture.Infrastructure.Bus.dll": {}
+        }
       }
     }
   },
@@ -1775,6 +1785,11 @@
       "sha512": ""
     },
     "CleanArchitecture.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitecture.Infrastructure.Bus/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
