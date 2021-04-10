@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CleanArchitecture.Infra.Data.Comtext;
+using MediatR;
 
 namespace CleanArch.MVC
 {
@@ -35,6 +36,7 @@ namespace CleanArch.MVC
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddMediatR(typeof(Startup));
             services.AddDbContext<UniversityDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("UniversityDbConnection"));

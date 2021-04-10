@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UPERkxWMQnS/gn8L37L6fdoFY0AGHaHfbvZELp2+nRRqBJkopBXZm2Bs1MAOt+3AvoBD1QZqrbn5oNWK7dzz0w==",
+  "dgSpecHash": "Z6AxbF8sfB+AJfYBBtvwSlE2iLAs0gw8iyq/K8jMcYeVXBTL5aGUxBd7X0oqgU/emN3pLCUDqR+T4jtw7bgPlQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\can_k\\source\\repos\\CleanArchitecture.Demo\\CleanArch.MVC\\CleanArch.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\can_k\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\can_k\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\can_k\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.14\\microsoft.aspnetcore.cryptography.internal.3.1.14.nupkg.sha512",
     "C:\\Users\\can_k\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.14\\microsoft.aspnetcore.cryptography.keyderivation.3.1.14.nupkg.sha512",
     "C:\\Users\\can_k\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.14\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.14.nupkg.sha512",
