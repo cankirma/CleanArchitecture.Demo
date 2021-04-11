@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using CleanArch.Domain.Commands;
 using CleanArch.Domain.Interfaces;
 using CleanArchitecture.Application.Interfaces;
@@ -21,12 +22,10 @@ namespace CleanArchitecture.Application.Services
             _mapper = mapper;
         }
 
-        public CourseViewModel GetCourses()
+        public IEnumerable<CourseViewModel> GetCourses()
         {
-            return new CourseViewModel
-            {
-                Courses = _courseRepository.GetCourses()
-            };
+            return _courseRepository.GetCourses().ProjectTo<CourseViewModel>(_mapper.ConfigurationProvider);
+
         }
 
         public void Create(CourseViewModel courseViewModel)

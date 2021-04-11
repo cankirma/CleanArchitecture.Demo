@@ -15,15 +15,18 @@ namespace CleanArchitecture.Infra.Data.Repository
             _context = context;
         }
 
-        public IEnumerable<Course> GetCourses()
+    
+        IQueryable<Course> ICourseRepository.GetCourses()
         {
-          return  _context.Courses.ToList();
+          return  _context.Courses;
+          
         }
-
         public void Add(Course course)
         {
             _context.Courses.Add(course);
             _context.SaveChanges();
         }
+
+       
     }
 }
