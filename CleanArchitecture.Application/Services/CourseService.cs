@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using AutoMapper;
 using CleanArch.Domain.Commands;
 using CleanArch.Domain.Interfaces;
 using CleanArchitecture.Application.Interfaces;
@@ -12,10 +13,12 @@ namespace CleanArchitecture.Application.Services
     {
         private ICourseRepository _courseRepository;
         private readonly IMediatorHandler _mediatorHandler;
-        public CourseService(ICourseRepository courseRepository, IMediatorHandler mediatorHandler)
+        private readonly IMapper _mapper;
+        public CourseService(ICourseRepository courseRepository, IMediatorHandler mediatorHandler, IMapper mapper)
         {
             _courseRepository = courseRepository;
             _mediatorHandler = mediatorHandler;
+            _mapper = mapper;
         }
 
         public CourseViewModel GetCourses()
@@ -28,9 +31,10 @@ namespace CleanArchitecture.Application.Services
 
         public void Create(CourseViewModel courseViewModel)
         {
-            var createCourseCommand = new CreateCourseCommand(courseViewModel.Name, courseViewModel.Description,
-                courseViewModel.ImageUrl);
-            _mediatorHandler.SendCommand(createCourseCommand);
+            //var createCourseCommand = new CreateCourseCommand(courseViewModel.Name, courseViewModel.Description,
+            //    courseViewModel.ImageUrl);
+            _mediatorHandler.SendCommand(_mapper.Map<CreateCourseCommand>(courseViewModel));
+
         }
     }
 }
