@@ -77,3 +77,5 @@ C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.API\bin\Deb
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.API\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.pdb
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.API\obj\Debug\netcoreapp3.1\CleanArchitecture.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.API\obj\Debug\netcoreapp3.1\CleanArchitecture.API.csproj.CopyComplete
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArchitecture.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

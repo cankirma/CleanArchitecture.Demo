@@ -105,3 +105,5 @@ C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netco
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\CleanArchitecture.Domain.Core.pdb
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.Bus.pdb
 C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\can_k\source\repos\CleanArchitecture.Demo\CleanArch.MVC\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
