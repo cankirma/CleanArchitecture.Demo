@@ -14,5 +14,9 @@
     <ProjectReference Include="..\CleanArchitecture.Infrastructure.IoC\CleanArchitecture.Infrastructure.IoC.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
 
 </Project>

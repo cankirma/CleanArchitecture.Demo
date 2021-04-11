@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CleanArch.MVC.Configurations;
 using CleanArchitecture.Infra.Data.Comtext;
 using MediatR;
 
@@ -41,6 +42,7 @@ namespace CleanArch.MVC
             {
                 options.UseSqlServer(Configuration.GetConnectionString("UniversityDbConnection"));
             });
+            services.RegisterAutoMapper();
             Bootstrapper(services);
         }
 
@@ -77,7 +79,7 @@ namespace CleanArch.MVC
 
 
         private static void Bootstrapper(IServiceCollection services)
-        { 
+        {
             CleanArchitecture.Infrastructure.IoC.Bootstrapper.RegisterServices(services);
         }
     }
